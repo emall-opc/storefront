@@ -27,6 +27,11 @@ export const metadata: Metadata = {
   description:
     process.env.NEXT_PUBLIC_SITE_DESCRIPTION || 'Bizyul B2C Demo - Marketplace Storefront',
   metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'),
+  icons: {
+    icon: '/icon.png',
+    shortcut: '/icon.png',
+    apple: '/icon.png'
+  },
   alternates: {
     languages: {
       'x-default': process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'

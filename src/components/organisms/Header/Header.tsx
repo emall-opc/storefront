@@ -48,14 +48,20 @@ export const Header = async ({ locale } : {
           />
         </div>
         <div className="flex lg:justify-center lg:w-1/3 items-center pl-4 lg:pl-0">
-          <LocalizedClientLink href="/" className="text-2xl font-bold" data-testid="header-logo-link">
+          <LocalizedClientLink
+            href="/"
+            className="flex items-center gap-2 text-2xl font-bold"
+            data-testid="header-logo-link"
+          >
             <Image
-              src="/Logo.svg"
-              width={126}
+              src="/icon.png"
+              width={40}
               height={40}
-              alt="Logo"
+              alt="Bizyul"
+              className="h-10 w-10 rounded-xl object-cover"
               priority
             />
+            <span>Bizyul</span>
           </LocalizedClientLink>
         </div>
         <div className="flex items-center justify-end gap-2 lg:gap-4 w-full lg:w-1/3 py-2" data-testid="header-actions">

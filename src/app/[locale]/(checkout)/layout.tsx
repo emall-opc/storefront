@@ -21,14 +21,19 @@ export default async function RootLayout({
             </LocalizedClientLink>
           </div>
           <div className="flex items-center justify-center pl-4 lg:pl-0 w-full">
-            <LocalizedClientLink href="/" className="text-2xl font-bold">
+            <LocalizedClientLink
+              href="/"
+              className="flex items-center gap-2 text-2xl font-bold"
+            >
               <Image
-                src="/Logo.svg"
-                width={126}
+                src="/icon.png"
+                width={40}
                 height={40}
-                alt="Logo"
+                alt="Bizyul"
+                className="h-10 w-10 rounded-xl object-cover"
                 priority
               />
+              <span>Bizyul</span>
             </LocalizedClientLink>
           </div>
         </div>
