@@ -3,7 +3,7 @@
 <div align="center">
   <h1> B2C Storefront
     <br> 
-for <a href="https://github.com/mercurjs/mercur">Mercur</a> - Open Source Marketplace Platform  </h1>
+for <a href="https://github.com/mercurjs/mercur">Bizyul</a> - Open Source Marketplace Platform  </h1>
   <!-- Shields.io Badges -->
   <a href="https://github.com/mercurjs/mercur/tree/main?tab=MIT-1-ov-file">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-blue.svg" />
@@ -16,7 +16,7 @@ for <a href="https://github.com/mercurjs/mercur">Mercur</a> - Open Source Market
   </a>
   <!-- Website Links -->
   <p>
-  <a href="https://b2c.mercurjs.com/">🛍️ B2C Marketplace Storefront Demo </a> · <a href="https://mercurjs.com/">Mercur Website</a> · <a href="https://docs.mercurjs.com/">📃 Explore the docs</a> 
+  <a href="https://b2c.mercurjs.com/">🛍️ B2C Marketplace Storefront Demo </a> · <a href="https://mercurjs.com/">Bizyul Website</a> · <a href="https://docs.mercurjs.com/">📃 Explore the docs</a> 
   </p> 
 </div>
 
@@ -34,13 +34,13 @@ Ready to go:
 - Selling Hub - Moved to external <a href="https://github.com/mercurjs/vendor-panel">VendorPanel</a>
 - Wishlist
 
-# Part of Mercur
+# Part of Bizyul
 
-<a href="https://github.com/mercurjs/mercur">Mercur</a> is an open source marketplace platform that allows you to create high-quality experiences for shoppers and vendors while having the most popular Open Source commerce platform MedusaJS as a foundation.
+<a href="https://github.com/mercurjs/mercur">Bizyul</a> is an open source marketplace platform that allows you to create high-quality experiences for shoppers and vendors while having the most popular Open Source commerce platform Bizyul as a foundation.
 
-Mercur is a platform to start, customize, manage, and scale your marketplace for every business model with a modern technology stack.
+Bizyul is a platform to start, customize, manage, and scale your marketplace for every business model with a modern technology stack.
 
-![Mercur](https://cdn.prod.website-files.com/6790aeffc4b432ccaf1b56e5/67a1020f202572832c954ead_6b96703adfe74613f85133f83a19b1f0_Fleek%20Tilt%20-%20Readme.png)
+![Bizyul](https://cdn.prod.website-files.com/6790aeffc4b432ccaf1b56e5/67a1020f202572832c954ead_6b96703adfe74613f85133f83a19b1f0_Fleek%20Tilt%20-%20Readme.png)
 
 ## Quickstart
 
@@ -75,7 +75,7 @@ Make a .env.local file and copy the code below
 ```js
 # API URL
 MEDUSA_BACKEND_URL=http://localhost:9000
-# Your publishable key generated in mercur admin panel
+# Your publishable key generated in Bizyul admin panel
 NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY=
 # Your public url
 NEXT_PUBLIC_BASE_URL=http://localhost:3000

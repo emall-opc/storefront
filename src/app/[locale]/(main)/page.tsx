@@ -50,7 +50,7 @@ export async function generateMetadata({
 
   const title = "Home"
   const description =
-    "Welcome to Mercur B2C Demo! Create a modern marketplace that you own and customize in every aspect with high-performance, fully customizable storefront."
+    "Welcome to Bizyul B2C Demo! Create a modern marketplace that you own and customize in every aspect with high-performance, fully customizable storefront."
   const ogImage = "/B2C_Storefront_Open_Graph.png"
   const canonical = `${baseUrl}/${locale}`
 
@@ -78,13 +78,13 @@ export async function generateMetadata({
     openGraph: {
       title: `${title} | ${
         process.env.NEXT_PUBLIC_SITE_NAME ||
-        "Mercur B2C Demo - Marketplace Storefront"
+        "Bizyul B2C Demo - Marketplace Storefront"
       }`,
       description,
       url: canonical,
       siteName:
         process.env.NEXT_PUBLIC_SITE_NAME ||
-        "Mercur B2C Demo - Marketplace Storefront",
+        "Bizyul B2C Demo - Marketplace Storefront",
       type: "website",
       images: [
         {
@@ -93,7 +93,7 @@ export async function generateMetadata({
           height: 630,
           alt:
             process.env.NEXT_PUBLIC_SITE_NAME ||
-            "Mercur B2C Demo - Marketplace Storefront",
+            "Bizyul B2C Demo - Marketplace Storefront",
         },
       ],
     },
@@ -120,7 +120,7 @@ export default async function Home({
 
   const siteName =
     process.env.NEXT_PUBLIC_SITE_NAME ||
-    "Mercur B2C Demo - Marketplace Storefront"
+    "Bizyul B2C Demo - Marketplace Storefront"
 
   return (
     <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start text-primary">

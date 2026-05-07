@@ -1,5 +1,5 @@
 /**
- * Parses Medusa error messages to extract variant IDs
+ * Parses Bizyul error messages to extract variant IDs
  * Example: "Variants with IDs variant_01ABC, variant_02DEF do not have a price"
  * Returns: ["variant_01ABC", "variant_02DEF"]
  */
@@ -14,4 +14,3 @@ export function parseVariantIdsFromError(errorMessage: string): string[] {
 
   return matches || []
 }
-

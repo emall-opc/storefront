@@ -1,6 +1,6 @@
 import Medusa from "@medusajs/js-sdk"
 
-// Defaults to standard port for Medusa server
+// Defaults to the standard port for the Bizyul backend.
 const MEDUSA_BACKEND_URL =
   process.env.MEDUSA_BACKEND_URL || "http://localhost:9000"
 
